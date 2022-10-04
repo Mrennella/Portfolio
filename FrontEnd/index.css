@@ -1,0 +1,48 @@
+.ap{
+    background: black;
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: blue;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color: lightgrey;
+}
+body {
+    background-image: url(./imagenes/fotofondo1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+section.dashboard, section.panel {
+
+    margin-top: 9rem;
+}
+
+section.about {
+    margin-top: 15rem;
+    
+}
+section.about2 {
+    margin-top: 5rem;
+    
+}
+section.Footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    max-width: 60%;
+    
+}
+
+.logo2 {
+    background-color: black;
+    max-width: 60%;
+    
+}

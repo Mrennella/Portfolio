@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5b96cc9fea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="ap" src="../FrontEnd/imagenes/APLogo-20-20.png" alt="" width="20%" height="auto" background-color="black">
+        </a>  
+
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-github fa-2xl"></i></li>
+            <!-- Button trigger modal -->
+          <li class="list-group-item">
+            <i class="fa-solid fa-user-lock fa-2xl" type="button"data-bs-toggle="modal" data-bs-target="#exampleModal"></i> 
+          </li>
+        </ul>
+                  <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3 row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">contraseña</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="Sobre_mi" class="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-3">
+            <img src="./imagenes/fotoperfil1.jpg" alt="Foto perfil" class="rounded-circle w-75" title="..."/>
+          </div>
+          <div class="col-6 mt-4">
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facere fuga sed facilis rerum quam quos vel animi modi? Provident est optio eveniet molestias id? Quos dolorum iusto unde tempora.</h5>
+          </div>
+          <div class="col-3">
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="ap" src="../FrontEnd/imagenes/APLogo-20-20.png" alt="" width="20%" height="auto" background-color="black">
+        </a>  
+
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-github fa-2xl"></i></li>
+            <!-- Button trigger modal -->
+          <li class="list-group-item">
+            <i class="fa-solid fa-user-lock fa-2xl" type="button"data-bs-toggle="modal" data-bs-target="#exampleModal"></i> 
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <img src="imagenes/fotofondo1.jpeg" class="d-block w-100" alt="..."> -->
+          </div>
+        </div>
+      </div>
+      <!--barra vertical-->
+      <section>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+             <a href=""> Educacion</a>
+            </a>
+            <a href="./skills.html" class="list-group-item list-group-item-action">Habilidades</a>
+            <a href="#" class="list-group-item list-group-item-action">Experiencia</a>
+            <a href="#" class="list-group-item list-group-item-action">Proyectos</a>
+            <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+          </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>
